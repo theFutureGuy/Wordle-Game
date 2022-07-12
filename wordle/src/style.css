@@ -1,0 +1,29 @@
+.board{
+    display: flex;
+    gap:5px;
+}
+
+.line{
+    display:flex;
+    gap:5px;
+}
+.tiles{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.correct{
+    background-color: greenyellow;
+}
+.close{
+    background-color:  yellow;
+}
+.incorrect{
+background-color: red;
+}
